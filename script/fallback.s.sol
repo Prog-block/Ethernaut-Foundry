@@ -4,7 +4,7 @@ pragma solidity ^0.8.13;
 import {Script, console} from "forge-std/Script.sol";
 import {Fallback} from "../src/fallback.sol";
 
-contract fallbackSolution is Script {
+contract fallbackHack is Script {
     Fallback public _fallback =
         Fallback(payable(0xAf07d7CDA9ac580fc76f37d215Bbf6b4D7020856));
 
