@@ -29,5 +29,5 @@ contract ForceHack is Script {
     }
 }
 
-// forge script script/Force.s.sol -vv --tc ForceHack.sol
-// forge script script/Force.s.sol -vv --broadcast
+// forge script script/Force.s.sol -vv --tc ForceHack
+// forge script script/Force.s.sol -vv --broadcast --tc ForceHack

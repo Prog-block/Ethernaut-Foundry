@@ -13,8 +13,10 @@ contract Player {
         bool guess = blockValue / FACTOR == 1 ? true : false;
 
         coinflip.flip(guess);
+
     }
 }
+
 contract CoinFlipHack is Script {
     CoinFlip public coinFlip =
         CoinFlip(payable(0xDa7B2FB7ac2f26ebeeF171147cD464442Ea72223));
